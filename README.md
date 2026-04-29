@@ -2,9 +2,12 @@
 
 Un catálogo de productos virtual, moderno y responsivo, creado con **Vanilla JavaScript**, **HTML5 Semántico** y **CSS3** nativo. Utiliza la [Fake Store API](https://fakestoreapi.com/) para obtener datos de productos ficticios.
 
+🚀 **Ver Demo en Vivo:** [https://bichota-tech.github.io/eCommerce/](https://bichota-tech.github.io/eCommerce/)
+
 ## Características
 
 - **Diseño Premium:** Interfaz de usuario limpia, uso de variables CSS, modo responsivo basado en Grid, sombras dinámicas y micro-animaciones en las interacciones.
+- **Identidad Visual:** Favicon personalizado diseñado para una experiencia de marca profesional.
 - **Buscador en Tiempo Real:** Permite buscar productos por nombre y filtrar por categorías de forma simultánea e instantánea.
 - **Renderizado Dinámico (Vanilla JS):** Generación segura del DOM usando plantillas literales e interacciones sin necesidad de frameworks pesados.
 - **Manejo de Errores Visual:** Estados de "Error de Red" y "Resultados Vacíos" diseñados para ofrecer una buena Experiencia de Usuario (UX) junto con botones de reintento.
@@ -20,6 +23,8 @@ Un catálogo de productos virtual, moderno y responsivo, creado con **Vanilla Ja
 ├── producto.html        # Página de detalles de un producto individual
 ├── manifest.json        # Manifiesto de la PWA para su instalabilidad
 ├── service-worker.js    # Service Worker para manejo de caché offline
+├── assets/
+│   └── favicon.png      # Favicon personalizado
 ├── css/
 │   └── styles.css       # Estilos globales, layout, UI states y variables CSS
 └── js/
