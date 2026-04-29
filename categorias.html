@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categorías | Mini eCommerce</title>
+    <meta name="description" content="Explora nuestras categorías exclusivas.">
+    <meta name="theme-color" content="#101010">
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Open Graph SEO -->
+    <meta property="og:title" content="Categorías | Mini eCommerce">
+    <meta property="og:description" content="Explora nuestras categorías exclusivas.">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="category-page">
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container navbar-content">
+            <a href="index.html" class="logo">
+                <i class="bi bi-bag-fill logo-icon"></i>
+                <span class="logo-text">LuxeStore</span>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html" class="nav-link">Catálogo</a>
+                <a href="categorias.html" class="nav-link active">Categorías</a>
+                <a href="ofertas.html" class="nav-link">Ofertas</a>
+            </nav>
+            <div class="cart-icon">
+                <i class="bi bi-cart3"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container" style="padding-top: var(--spacing-xl);">
+        <div class="catalog-header">
+            <h2 class="section-title">Explorar Categorías</h2>
+        </div>
+
+        <!-- Loader -->
+        <div id="loader" class="loader-container">
+            <div class="spinner"></div>
+            <p>Cargando categorías...</p>
+        </div>
+
+        <!-- Error State -->
+        <div id="error-state" class="error-container hidden">
+            <i class="bi bi-exclamation-triangle error-icon"></i>
+            <p id="error-message">Error al cargar las categorías.</p>
+            <button id="retry-btn" class="btn-primary" style="margin-top: 1rem;">Reintentar</button>
+        </div>
+
+        <!-- Categories Grid -->
+        <section id="categories-grid" class="categories-grid">
+            <!-- Dinámico -->
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="logo-text">LuxeStore</span>
+                <p>Tu destino para productos exclusivos y de alta calidad.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Términos y Condiciones</a>
+                <a href="#">Política de Privacidad</a>
+                <a href="#">Soporte</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 LuxeStore. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/app.js"></script>
+</body>
+</html>

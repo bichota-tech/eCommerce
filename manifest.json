@@ -1,0 +1,21 @@
+{
+    "name": "LuxeStore | Mini eCommerce",
+    "short_name": "LuxeStore",
+    "description": "Catálogo premium de productos ficticios.",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#f8fafc",
+    "theme_color": "#101010",
+    "icons": [
+        {
+            "src": "https://cdn-icons-png.flaticon.com/512/1170/1170678.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://cdn-icons-png.flaticon.com/512/1170/1170678.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
